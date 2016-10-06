@@ -1,6 +1,3 @@
-[submodule "webrtc/windows/wrapper"]
-	path = webrtc/windows/wrapper
-	url = https://github.com/webrtc-uwp/webrtc-wrapper-uwp.git
 [submodule "docs"]
 	path = docs
 	url = https://github.com/ortclib/ortclib.org.git
@@ -67,9 +64,6 @@
 [submodule "ortc/xplatform/cryptopp"]
 	path = ortc/xplatform/cryptopp
 	url = https://github.com/ortclib/cryptopp.git
-[submodule "ortc/windows/wrapper"]
-	path = ortc/windows/wrapper
-	url = https://github.com/ortclib/ortclib-wrapper-uwp.git
 [submodule "ortc/xplatform/ortclib-cpp"]
 	path = ortc/xplatform/ortclib-cpp
 	url = https://github.com/ortclib/ortclib-cpp.git
@@ -88,6 +82,3 @@
 [submodule "ortc/xplatform/curl"]
 	path = ortc/xplatform/curl
 	url = https://github.com/ortclib/curl-build-scripts.git
-[submodule "ortc/apple/wrapper"]
-	path = ortc/apple/wrapper
-	url = https://github.com/ortclib/ortclib-ios.git
