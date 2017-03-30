@@ -97,3 +97,6 @@
 [submodule "ortc/xplatform/zsLib-eventing"]
 	path = ortc/xplatform/zsLib-eventing
 	url = https://github.com/ortclib/zsLib-eventing.git
+[submodule "common/windows/samples/AppRTC"]
+	path = common/windows/samples/AppRTC
+	url = https://github.com/webrtc-uwp/AppRTC.git
