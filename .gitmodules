@@ -100,3 +100,6 @@
 [submodule "common/windows/samples/AppRTC"]
 	path = common/windows/samples/AppRTC
 	url = https://github.com/webrtc-uwp/AppRTC.git
+[submodule "webrtc/xplatform/gflags-build"]
+	path = webrtc/xplatform/gflags-build
+	url = https://chromium.googlesource.com/external/webrtc/deps/third_party/gflags
