@@ -103,3 +103,6 @@
 [submodule "webrtc/xplatform/gflags-build"]
 	path = webrtc/xplatform/gflags-build
 	url = https://chromium.googlesource.com/external/webrtc/deps/third_party/gflags
+[submodule "webrtc/xplatform/buildtools"]
+	path = webrtc/xplatform/buildtools
+	url = https://chromium.googlesource.com/chromium/buildtools
