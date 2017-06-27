@@ -106,3 +106,6 @@
 [submodule "webrtc/xplatform/gflags-build"]
 	path = webrtc/xplatform/gflags-build
 	url = https://github.com/webrtc-uwp/gflags-build.git
+[submodule "webrtc/xplatform/googlemock"]
+	path = webrtc/xplatform/googlemock
+	url = https://github.com/webrtc-uwp/googlemock.git
