@@ -33,6 +33,6 @@ This script will prepare environment but it won't build webrtc projects. In this
 
 2) From VS2015, load ortc\windows\solutions\Ortc.sln for Ortc or webrtc\windows\solutions\WebRtc.sln for WebRtc development.
 
-3) Now you can build winrt libraries for Ortc or WebRtc and deploy sample apps ChatterBox (WebRtc only) and PeerCC.
+3) Now you can build winuwp libraries for Ortc or WebRtc and deploy sample apps ChatterBox (WebRtc only) and PeerCC.
 
 ====
