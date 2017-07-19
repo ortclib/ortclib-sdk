@@ -109,3 +109,6 @@
 [submodule "webrtc/xplatform/googlemock"]
 	path = webrtc/xplatform/googlemock
 	url = https://github.com/webrtc-uwp/googlemock.git
+[submodule "webrtc/linux"]
+	path = webrtc/linux
+	url = https://github.com/webrtc-uwp/webrtc-linux.git
