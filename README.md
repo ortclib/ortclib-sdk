@@ -1,7 +1,7 @@
 INSTRUCTIONS
 =======
 
-From your terminal, please clone the "ortclib-sdk" git repository:
+From your terminal, please clone the "ortclib-sdk" git repository (before cloning, please read IMPORTANT NOTES section below):
 git clone --recursive https://github.com/ortclib/ortclib-sdk.git
 
 This repository will yield the ORTC Lib SDK and dependency libraries.
@@ -14,6 +14,13 @@ Directory structure:
 - ortc-lib-sdk\webrtc    		contains code of WebRtc and dependency libraries
 - ortc-lib-sdk\docs			contains documentation
 
+IMPORTANT NOTES:
+1)  Ensure that Git is properly configured to handle line endings. Git setting for core.autocrlf needs to be set to true; you can check current setting for core.autocrlf using command: 'git config -l', or 'git config core.autocrlf', and you can change setting to true using 'git config --global core.autocrlf true'. 
+    Usefull links: 
+	https://help.github.com/articles/dealing-with-line-endings/
+	https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#__code_core_autocrlf_code (section core.autocrlf)  
+2) Visual Studio 2015 is required
+3) Latest supported Win 10 SDK is 10.0.14393.x
 
 How to Build:
 
