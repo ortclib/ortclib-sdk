@@ -91,9 +91,6 @@
 [submodule "common/windows/samples/ChatterBox"]
 	path = common/windows/samples/ChatterBox
 	url = https://github.com/webrtc-uwp/ChatterBox.git
-[submodule "webrtc/xplatform/winsdk_samples_v71"]
-	path = webrtc/xplatform/winsdk_samples_v71
-	url = https://chromium.googlesource.com/external/webrtc/deps/third_party/winsdk_samples_v71
 [submodule "ortc/xplatform/zsLib-eventing"]
 	path = ortc/xplatform/zsLib-eventing
 	url = https://github.com/ortclib/zsLib-eventing.git
