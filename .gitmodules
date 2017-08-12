@@ -99,7 +99,7 @@
 	url = https://github.com/webrtc-uwp/AppRTC.git
 [submodule "webrtc/xplatform/buildtools"]
 	path = webrtc/xplatform/buildtools
-	url = https://chromium.googlesource.com/chromium/buildtools
+	url = https://github.com/webrtc-uwp/buildtools.git
 [submodule "webrtc/xplatform/depot_tools"]
 	path = webrtc/xplatform/depot_tools
 	url = https://github.com/webrtc-uwp/depot_tools.git
