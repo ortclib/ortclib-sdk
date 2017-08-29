@@ -112,3 +112,6 @@
 [submodule "webrtc/linux"]
 	path = webrtc/linux
 	url = https://github.com/webrtc-uwp/webrtc-linux.git
+[submodule "ortc/xplatform/templates"]
+	path = ortc/xplatform/templates
+	url = https://github.com/ortclib/templates
