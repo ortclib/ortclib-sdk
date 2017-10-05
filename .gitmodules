@@ -127,3 +127,6 @@
 [submodule "webrtc/xplatform/chromium/build"]
 	path = webrtc/xplatform/chromium/build
 	url = https://github.com/webrtc-uwp/chromium-build.git
+[submodule "webrtc/xplatform/chromium/testing"]
+	path = webrtc/xplatform/chromium/testing
+	url=https://github.com/webrtc-uwp/chromium-testing
