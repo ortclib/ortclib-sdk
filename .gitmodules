@@ -118,3 +118,6 @@
 [submodule "webrtc/xplatform/llvm/libcxxabi"]
 	path = webrtc/xplatform/llvm/libcxxabi
 	url = https://github.com/webrtc-uwp/libcxxabi.git
+[submodule "webrtc/xplatform/webrtc"]
+	path = webrtc/xplatform/webrtc
+	url = https://github.com/webrtc-uwp/webrtc.git
