@@ -133,3 +133,6 @@
 [submodule "webrtc/xplatform/chromium/tools"]
 	path = webrtc/xplatform/chromium/tools
 	url = https://github.com/webrtc-uwp/chromium-tools.git
+[submodule "webrtc/apple"]
+	path = webrtc/apple
+	url = https://github.com/webrtc-uwp/webrtc-apple.git
