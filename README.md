@@ -27,7 +27,7 @@ How to Build:
 WINDOWS BUILD :
 ----------------------------
 
-1) Run prepare script, from your terminal:
+1) Run prepare script, from Windows Command Prompt (not from a terminal emulator):
 <br />
 <pre>
 <code>
