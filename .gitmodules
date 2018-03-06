@@ -136,3 +136,6 @@
 [submodule "webrtc/apple"]
 	path = webrtc/apple
 	url = https://github.com/webrtc-uwp/webrtc-apple.git
+[submodule "common/samples/DataChannel.Sample"]
+	path = common/samples/DataChannel.Sample
+	url = https://github.com/ortclib/DataChannel.Sample.git
