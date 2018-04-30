@@ -39,17 +39,35 @@ This script will prepare environment but it won't build webrtc projects. In this
 
 # Unity Video Rendering
 
-There are two ways to render WebRTC video streams in Unity engine:
-1. Using Swap Chain Panel component as part of Peer Connection Client XAML application - WebRtcUnityXaml.sln
-2. Inside Unity standalone application - WebRtcUnityD3D.sln
+There are two ways to render WebRTC video streams in Peer Connection Client sample application using Unity engine:
+1. In standard Peer Connection Client XAML application video content can be rendered through Swap Chain Panel component - WebRtcUnityXaml.sln
+2. Unity standalone application with full screen 3D display - WebRtcUnityD3D.sln
 
 ## Unity build requirements
 
 1. Unity version 2017.4.1 with Windows Store .NET Scripting Backend
 
-*Remark: if Unty is not installed on default location (C:\Program Files\Unity) edit the install path in common\windows\samples\PeerCC\Client\UnityCommon.props and common\windows\samples\PeerCC\ClientUnity\UnityCommon.props files.*
+*Remark: If Unty is not installed on default location (C:\Program Files\Unity), edit install path values in property files common\windows\samples\PeerCC\Client\UnityCommon.props and common\windows\samples\PeerCC\ClientUnity\UnityCommon.props.*
 
 ## Compile and run
 
 * For XAML based application with Unity rendering component open webrtc\windows\solutions\WebRtcUnityXaml.sln and build PeerConnectionClientUnity.WebRtc
-* Unity Peer Connection Client application is started by running PeerConnectionClientUnity project in webrtc\windows\solutions\WebRtcUnityD3D.sln
+* Unity 3D Peer Connection Client application - build PeerConnectionClientUnity project in webrtc\windows\solutions\WebRtcUnityD3D.sln
+
+## Exporting Visual Studio solution from Unity Editor - PeerCC Unity standalone application only
+
+1. Build soulution WebRtcUnityD3D.sln - this step adds WebRTC binaries to Unity project space
+2. Open Unity project common\windows\samples\PeerCC\ClientUnity\Unity\PeerCCUnity in Unity Editor
+3. Go to 'File' -> 'Build settings...' -> 'Build' and choose an export folder
+4. Add the following XML block to PeerCCUnity\Package.appxmanifest:
+```
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>WebRtcScheme.dll</Path>
+        <ActivatableClass ActivatableClassId="WebRtcScheme.SchemeHandler" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+```
+5. Open PeerCCUnity.sln, build and run project PeerCCUnity
