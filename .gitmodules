@@ -139,6 +139,3 @@
 [submodule "common/samples/DataChannel.Sample"]
 	path = common/samples/DataChannel.Sample
 	url = https://github.com/ortclib/DataChannel.Sample.git
-[submodule "webrtc/xplatform/templates"]
-	path = webrtc/xplatform/templates
-	url = https://github.com/webrtc-uwp/templates.git
