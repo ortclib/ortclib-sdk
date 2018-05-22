@@ -142,3 +142,6 @@
 [submodule "webrtc/xplatform/templates"]
 	path = webrtc/xplatform/templates
 	url = https://github.com/webrtc-uwp/templates.git
+[submodule "webrtc/xplatform/icu"]
+	path = webrtc/xplatform/icu
+	url = https://github.com/webrtc-uwp/icu.git
