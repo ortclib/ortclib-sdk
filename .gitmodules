@@ -3,7 +3,7 @@
 	url = https://github.com/ortclib/ortclib.org.git
 [submodule "bin"]
 	path = bin
-	url = https://github.com/ortclib/ortclib-scripts.git
+	url = https://github.com/anderm/ortclib-scripts
 [submodule "webrtc/xplatform/gyp"]
 	path = webrtc/xplatform/gyp
 	url = https://github.com/webrtc-uwp/gyp.git
