@@ -131,7 +131,7 @@
 	url=https://github.com/webrtc-uwp/chromium-testing
 [submodule "webrtc/xplatform/chromium/third_party"]
 	path = webrtc/xplatform/chromium/third_party
-	url = https://github.com/webrtc-uwp/chromium-third_party
+	url = https://github.com/anderm/chromium-third_party
 [submodule "webrtc/xplatform/chromium/tools"]
 	path = webrtc/xplatform/chromium/tools
 	url = https://github.com/webrtc-uwp/chromium-tools.git
