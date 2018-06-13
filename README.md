@@ -1,7 +1,7 @@
 M62 WebRTC Native and UWP enhancements
 =======
 
-This repo contains all the patches and extensions made to WebRTC for the [3D Streaming Toolkit project](https://github.com/CatalystCode/3dtoolkit), enabling building powerful stereoscopic 3D experiences that run on the cloud and stream to devices. Changes include:
+This repo contains all the patches and extensions made to WebRTC for the [3D Streaming Toolkit project](https://github.com/CatalystCode/3DStreamingToolkit), enabling building powerful stereoscopic 3D experiences that run on the cloud and stream to devices. Changes include:
 
 #### WebRTC M62 native:
 
@@ -23,7 +23,7 @@ From your terminal, please clone the git repository:
 <br />
 <pre>
 <code>
-git clone --recursive -b 3dtoolkit-M62-release https://github.com/ortclib/ortclib-sdk.git 3dtoolkit-M62-release
+git clone --recursive -b 3DStreamingToolkit-M62-release https://github.com/anderm/ortclib-sdk.git 3DStreamingToolkit-M62-release
 </code>
 </pre>
 <br />
