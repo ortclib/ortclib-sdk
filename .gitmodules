@@ -138,3 +138,9 @@
 [submodule "webrtc/apple"]
 	path = webrtc/apple
 	url = https://github.com/webrtc-uwp/webrtc-apple.git
+[submodule "webrtc\\xplatform\\ffmpeg"]
+	path = webrtc\\xplatform\\ffmpeg
+	url = https://chromium.googlesource.com/chromium/third_party/ffmpeg.git
+[submodule "webrtc\\xplatform\\openh264\\src"]
+	path = webrtc\\xplatform\\openh264\\src
+	url = https://chromium.googlesource.com/external/github.com/cisco/openh264
