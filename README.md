@@ -45,7 +45,7 @@ There are two ways to render WebRTC video streams in Peer Connection Client samp
 
 ## Unity build requirements
 
-1. Unity version 2017.4.1 with Windows Store .NET Scripting Backend
+1. Unity version 2017.4.1 (2017.4.1f1) with Windows Store .NET Scripting Backend
 
 *Remark: If Unty is not installed on default location (C:\Program Files\Unity), edit install path values in property files common\windows\samples\PeerCC\Client\UnityCommon.props and common\windows\samples\PeerCC\ClientUnity\UnityCommon.props.*
 
