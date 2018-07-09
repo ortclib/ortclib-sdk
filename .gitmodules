@@ -3,7 +3,8 @@
 	url = https://github.com/ortclib/ortclib.org.git
 [submodule "bin"]
 	path = bin
-	url = https://github.com/anderm/ortclib-scripts
+	url = https://github.com/3DStreamingToolkit/ortclib-scripts
+	branch = 3dstk-m62-release
 [submodule "webrtc/xplatform/gyp"]
 	path = webrtc/xplatform/gyp
 	url = https://github.com/webrtc-uwp/gyp.git
@@ -75,8 +76,8 @@
 	url = https://github.com/ortclib/ortclib-apple.git
 [submodule "webrtc/windows"]
 	path = webrtc/windows
-	url = https://github.com/anderm/webrtc-windows.git
-	branch = Andrei/enhancements
+	url = https://github.com/3DStreamingToolkit/webrtc-windows.git
+	branch = 3dstk-m62-release
 [submodule "common/windows/samples/PeerCC"]
 	path = common/windows/samples/PeerCC
 	url = https://github.com/webrtc-uwp/PeerCC.git
@@ -118,8 +119,8 @@
 	url = https://github.com/webrtc-uwp/libcxxabi.git
 [submodule "webrtc/xplatform/webrtc"]
 	path = webrtc/xplatform/webrtc
-	url = https://github.com/anderm/webrtc.git
-	branch = Andrei/enhancements
+	url = https://github.com/3DStreamingToolkit/webrtc.git
+	branch = 3dstk-m62-release
 [submodule "webrtc/xplatform/chromium/base"]
 	path = webrtc/xplatform/chromium/base
 	url = https://github.com/webrtc-uwp/chromium-base.git
@@ -131,7 +132,8 @@
 	url=https://github.com/webrtc-uwp/chromium-testing
 [submodule "webrtc/xplatform/chromium/third_party"]
 	path = webrtc/xplatform/chromium/third_party
-	url = https://github.com/anderm/chromium-third_party
+	url = https://github.com/3DStreamingToolkit/chromium-third_party
+	branch = 3dstk-m62-release
 [submodule "webrtc/xplatform/chromium/tools"]
 	path = webrtc/xplatform/chromium/tools
 	url = https://github.com/webrtc-uwp/chromium-tools.git
