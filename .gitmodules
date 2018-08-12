@@ -46,15 +46,9 @@
 [submodule "webrtc/xplatform/yasm/patched-yasm"]
 	path = webrtc/xplatform/yasm/patched-yasm
 	url = https://chromium.googlesource.com/chromium/deps/yasm/patched-yasm
-[submodule "ortc/xplatform/cryptopp"]
-	path = ortc/xplatform/cryptopp
-	url = https://github.com/ortclib/cryptopp.git
 [submodule "ortc/xplatform/ortclib-cpp"]
 	path = ortc/xplatform/ortclib-cpp
 	url = https://github.com/ortclib/ortclib-cpp.git
-[submodule "ortc/xplatform/zsLib"]
-	path = ortc/xplatform/zsLib
-	url = https://github.com/ortclib/zsLib.git
 [submodule "ortc/xplatform/ortclib-services-cpp"]
 	path = ortc/xplatform/ortclib-services-cpp
 	url = https://github.com/ortclib/ortclib-services-cpp.git
@@ -85,9 +79,6 @@
 [submodule "webrtc/xplatform/winsdk_samples_v71"]
 	path = webrtc/xplatform/winsdk_samples_v71
 	url = https://chromium.googlesource.com/external/webrtc/deps/third_party/winsdk_samples_v71
-[submodule "ortc/xplatform/zsLib-eventing"]
-	path = ortc/xplatform/zsLib-eventing
-	url = https://github.com/ortclib/zsLib-eventing.git
 [submodule "common/windows/samples/AppRTC"]
 	path = common/windows/samples/AppRTC
 	url = https://github.com/webrtc-uwp/AppRTC.git
