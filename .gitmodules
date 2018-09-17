@@ -3,7 +3,7 @@
 	url = https://github.com/ortclib/ortclib.org.git
 [submodule "bin"]
 	path = bin
-	url = https://github.com/ortclib/ortclib-scripts.git
+	url = https://github.com/webrtc-uwp/webrtc-bin.git
 [submodule "webrtc/xplatform/gyp"]
 	path = webrtc/xplatform/gyp
 	url = https://github.com/webrtc-uwp/gyp.git
@@ -60,7 +60,7 @@
 	url = https://github.com/ortclib/ortclib-cpp.git
 [submodule "ortc/xplatform/zsLib"]
 	path = ortc/xplatform/zsLib
-	url = https://github.com/ortclib/zsLib.git
+	url = https://github.com/webrtc-uwp/zsLib.git
 [submodule "ortc/xplatform/ortclib-services-cpp"]
 	path = ortc/xplatform/ortclib-services-cpp
 	url = https://github.com/ortclib/ortclib-services-cpp.git
@@ -93,7 +93,7 @@
 	url = https://chromium.googlesource.com/external/webrtc/deps/third_party/winsdk_samples_v71
 [submodule "ortc/xplatform/zsLib-eventing"]
 	path = ortc/xplatform/zsLib-eventing
-	url = https://github.com/ortclib/zsLib-eventing.git
+	url = https://github.com/webrtc-uwp/zsLib-eventing.git
 [submodule "common/windows/samples/AppRTC"]
 	path = common/windows/samples/AppRTC
 	url = https://github.com/webrtc-uwp/AppRTC.git
