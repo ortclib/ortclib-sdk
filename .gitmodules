@@ -54,7 +54,7 @@
 	url = https://chromium.googlesource.com/chromium/deps/yasm/patched-yasm
 [submodule "ortc/xplatform/cryptopp"]
 	path = ortc/xplatform/cryptopp
-	url = https://github.com/ortclib/cryptopp.git
+	url = https://github.com/webrtc-uwp/cryptopp.git
 [submodule "ortc/xplatform/ortclib-cpp"]
 	path = ortc/xplatform/ortclib-cpp
 	url = https://github.com/ortclib/ortclib-cpp.git
