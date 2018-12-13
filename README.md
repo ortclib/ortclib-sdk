@@ -37,29 +37,18 @@ This script will prepare environment but it won't build webrtc projects. In this
 
 ====
 
-# Unity Video Rendering
-
-There are two ways to render WebRTC video streams in Peer Connection Client sample application using Unity engine:
-1. In standard Peer Connection Client XAML application video content can be rendered through Swap Chain Panel component - WebRtcUnityXaml.sln
-2. Unity standalone application with full screen 3D display - WebRtcUnityD3D.sln
+# Unity Video Rendering on HoloLens
 
 ## Unity build requirements
 
-1. Unity version 2017.4.1 (2017.4.1f1) with Windows Store .NET Scripting Backend
+* Unity version 2018.2.13 (2018.2.13f1) with IL2CPP Scripting Backend
 
-*Remark: If Unty is not installed on default location (C:\Program Files\Unity), edit install path values in property files common\windows\samples\PeerCC\Client\UnityCommon.props and common\windows\samples\PeerCC\ClientUnity\UnityCommon.props.*
+## Running Unity Peer Connection Client application on HoloLens device 
 
-## Compile and run
-
-* For XAML based application with Unity rendering component open webrtc\windows\solutions\WebRtcUnityXaml.sln and build PeerConnectionClientUnity.WebRtc
-* Unity 3D Peer Connection Client application - build PeerConnectionClientUnity project in webrtc\windows\solutions\WebRtcUnityD3D.sln
-
-## Exporting Visual Studio solution from Unity Editor - PeerCC Unity standalone application only
-
-1. Build soulution WebRtcUnityD3D.sln - this step adds WebRTC binaries to Unity project space
-2. Open Unity project common\windows\samples\PeerCC\ClientUnity\Unity\PeerCCUnity in Unity Editor
-3. Go to 'File' -> 'Build settings...' -> 'Build' and choose an export folder
-4. Add the following XML block to PeerCCUnity\Package.appxmanifest:
+1. Open `webrtc\windows\solutions\WebRtcUnity.sln` solution, select x86 platform and build PeerConnectionClientUnityCore project. The build procedure produces WebRTC libraries, WebRTC for UWP wrapper component and deploys WebRTC and Peer Connection Client Core libraries to the Unity project space.
+2. Open Unity project `common\windows\samples\PeerCC\ClientUnity' in Unity Editor
+3. Go to 'File' -> 'Build settings...', select 'Universal Windows Platform', click on the 'Build' button and choose an export folder
+4. Add the following XML block to generated manifest file `PeerCCUnity\Package.appxmanifest`:
 ```
   <Extensions>
     <Extension Category="windows.activatableClass.inProcessServer">
@@ -70,4 +59,4 @@ There are two ways to render WebRTC video streams in Peer Connection Client samp
     </Extension>
   </Extensions>
 ```
-5. Open PeerCCUnity.sln, build and run project PeerCCUnity
+5. Open PeerCCUnity.sln from export folder, build PeerCCUnity project and run the application on the device 
